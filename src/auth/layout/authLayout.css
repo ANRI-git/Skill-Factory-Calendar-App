@@ -1,0 +1,51 @@
+.auth-container{
+    height: 100vh; 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+}
+
+.auth-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;    
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;   
+    background-color: #0270e6;
+    min-height: 300px;
+}
+
+.auth-body h3{
+    text-align: center;
+    color: rgb(232, 227, 227);
+}
+
+.btnSubmit
+{
+    border-radius: 0.5rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+.auth-body .btnSubmit{
+    color: rgb(30, 30, 30);
+    background-color: #ccdbeb;
+}
+
+.auth-body .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.auth-body a{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;  
+    text-align: right;  
+}
